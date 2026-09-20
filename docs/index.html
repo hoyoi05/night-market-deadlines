@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111c32">
+  <meta name="description" content="서울·경기·인천 야시장과 야간 먹거리 행사. 행사 시작·종료 카운트다운, 다음 운영일, 공식 출처를 함께 확인하세요.">
+  <title>야시장 데드라인 — 서울·근교의 밤</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script type="module" src="./assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#results">야시장 목록으로 이동</a>
+  <header class="topbar">
+    <a class="wordmark" href="./"><span class="logo" aria-hidden="true">n.</span><span>NIGHT MARKET <b>DEADLINES</b></span></a>
+    <nav aria-label="주 메뉴"><a href="#results" aria-current="page">야시장 일정</a><a href="https://hoyoi05.github.io/popup-deadlines/">팝업 일정 ↗</a><a href="https://github.com/hoyoi05/night-market-deadlines">GitHub ↗</a></nav>
+  </header>
+  <div class="workspace">
+    <aside class="sidebar" aria-label="지역과 행사 종류 선택">
+      <p class="edition">SEOUL & AROUND / NIGHT</p>
+      <h2>어느 동네의 밤?</h2>
+      <details id="filter-panel" open><summary>지역·행사 종류 <span id="filter-summary">전체</span></summary>
+      <fieldset><legend>지역</legend><div class="regions" id="regions"><button type="button" data-region="" aria-pressed="true">서울·근교 전체 <span>—</span></button><button type="button" data-region="서울" aria-pressed="false">서울 <span>—</span></button><button type="button" data-region="경기" aria-pressed="false">경기 <span>—</span></button><button type="button" data-region="인천" aria-pressed="false">인천 <span>—</span></button></div></fieldset>
+      <fieldset><legend>행사 종류</legend><div class="chips" id="kinds"><button type="button" data-kind="" aria-pressed="true">전체</button><button type="button" data-kind="야시장" aria-pressed="false">야시장</button><button type="button" data-kind="야장" aria-pressed="false">야장</button><button type="button" data-kind="축제 연계" aria-pressed="false">축제 연계</button></div></fieldset>
+      </details><div class="sidebar-note"><strong>가기 전에, 한 번 더</strong><p>야외 행사는 날씨에 따라 바뀔 수 있어요. 방문 당일 공식 공지를 확인하세요.</p></div>
+      <a class="suggest" href="https://github.com/hoyoi05/night-market-deadlines/issues/new">새 야시장 제보·일정 수정 ↗</a>
+    </aside>
+    <main>
+      <div class="page-intro"><div><p class="eyebrow">서울 · 경기 · 인천</p><h1>야시장 데드라인<span>.</span></h1><p class="intro">시장이 열리는 밤, 다음 일정을 미리 확인하세요.</p></div><div class="clock"><span>지금 한국은</span><time id="korea-clock">—</time></div></div>
+      <section class="metrics" aria-label="전체 수집 현황"><div><span>시즌 진행·예정</span><strong id="stat-active">—</strong></div><div><span>오늘 남은 운영 일정</span><strong id="stat-today">—</strong></div><div><span>확인 필요</span><strong id="stat-unconfirmed">—</strong></div><div class="checked"><span>자료 확인일</span><strong id="checked-date">—</strong><small>공식 공지 기준 · 현장 실시간 정보 아님</small></div></section>
+      <section class="search-row" aria-label="검색과 정렬"><label class="searchbox"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><span class="sr-only">야시장·동네·장소 검색</span><input id="search" type="search" placeholder="야시장 이름, 동네, 장소 검색" maxlength="150" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><label><span class="sr-only">정렬</span><select id="sort"><option value="next">다음 운영일순</option><option value="name">이름순</option></select></label></section>
+      <div class="list-toolbar"><div id="views" class="tabs" role="group" aria-label="일정 보기"><button type="button" data-view="active" aria-pressed="true">진행·예정</button><button type="button" data-view="today" aria-pressed="false">오늘 일정</button><button type="button" data-view="unconfirmed" aria-pressed="false">확인 필요</button><button type="button" data-view="ended" aria-pressed="false">종료</button></div><button id="reset" class="text-button" type="button">초기화 ↺</button></div>
+      <div class="list-heading"><h2>야시장 일정 <span id="result-count" aria-live="polite"></span></h2><span>모든 날짜·시간은 한국 기준</span></div>
+      <div id="data-notice" class="notice" hidden></div>
+      <nav id="group-nav" aria-label="시작·종료 기준 바로가기"></nav>
+      <section id="results" aria-label="야시장 일정 목록" aria-busy="true"><p class="empty">일정을 불러오고 있습니다.</p></section>
+      <noscript><p>검색과 카운트다운에는 JavaScript가 필요합니다. <a href="./data/markets.json">수집한 일정 원본 보기</a></p></noscript>
+      <section class="guide" id="guide"><h2>일정은 이렇게 읽어주세요</h2><div class="guide-grid"><p><strong>시즌과 운영일은 달라요</strong>시즌 중이어도 매일 열리지는 않습니다. 행사 기간 아래 ‘다음 운영’을 확인하세요.</p><p><strong>확인된 만큼만 표시해요</strong>시간이 없으면 날짜 단위로 표시합니다. 세부 일정이 없거나 공식 확인 전이면 카운트다운에서 제외합니다.</p><p><strong>출처와 확인일을 함께</strong>주최 측·지자체 공지를 바탕으로 수집합니다. 모든 지역의 행사를 망라하지 않으며 취소·변경 반영에 시차가 있을 수 있습니다.</p></div><p class="guide-foot">일정 상태와 카운트다운은 자동 계산됩니다. 신규 행사와 공지 변경은 자료 검토 후 반영하며, 자동 수집은 아직 연결하지 않았습니다. <a href="https://github.com/hoyoi05/night-market-deadlines/blob/main/RESEARCH.md">수집 범위·출처 기록 ↗</a></p></section>
+      <footer><span>NIGHT MARKET DEADLINES / SEOUL & AROUND</span><a href="./data/markets.json">일정 데이터 ↗</a></footer>
+    </main>
+  </div>
+</body>
+</html>

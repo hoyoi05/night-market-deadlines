@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Seoul",
+  "checkedAt": "2026-09-21",
+  "scope": "서울·경기·인천의 야시장, 야장 및 야간 먹거리·마켓이 명시된 연계 행사",
+  "updatePolicy": "공식 자료 수동 검토. 날짜 상태 자동 계산. 신규 공지 자동 수집 미연결.",
+  "markets": [
+    {
+      "id": "jamsugyo-2026-autumn",
+      "name": "잠수교 뚜벅뚜벅 축제 · 달빛 식당",
+      "region": "서울",
+      "district": "서초구",
+      "kind": "축제 연계",
+      "location": "잠수교·반포한강공원 일원",
+      "schedule": {
+        "mode": "weekly",
+        "start": "2026-09-06",
+        "end": "2026-10-25",
+        "weekdays": [
+          0
+        ],
+        "open": "14:00",
+        "close": "22:00",
+        "excludedDates": []
+      },
+      "scheduleText": "매주 일요일 14:00–22:00",
+      "description": "푸드트럭과 수공예품 판매가 함께하는 한강 축제. 저녁에도 먹거리와 산책을 즐길 수 있습니다.",
+      "tags": [
+        "한강",
+        "푸드트럭",
+        "반포",
+        "플리마켓"
+      ],
+      "admission": "입장 무료 · 먹거리·일부 체험 유료",
+      "booking": "자유 방문 · 일부 특화 프로그램 사전 접수",
+      "note": "독립 야시장이 아닌 축제 연계 먹거리 행사입니다. 월~토요일에는 이 축제가 운영되지 않습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "서울시 미래한강본부 · 2026 잠수교 축제 하반기",
+          "url": "https://hangang.seoul.go.kr/www/eventMng/detail.do?evntSn=451&mid=53"
+        }
+      ],
+      "mapQuery": "반포한강공원 잠수교"
+    },
+    {
+      "id": "chungmuro-2026",
+      "name": "충무로 이순신 달빛 승전길 야시장",
+      "region": "서울",
+      "district": "중구",
+      "kind": "야시장",
+      "location": "충무로 골목형상점가 · 충무로2길 일대",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-10-01",
+        "end": "2026-10-02",
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "scheduleText": "10월 1일·2일 16:00–20:00",
+      "description": "이순신을 주제로 체험과 퀴즈 프로그램을 여는 골목 야시장입니다.",
+      "tags": [
+        "충무로",
+        "체험"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "중구청 9월호 기준입니다. 세부 운영·변경은 상인회 안내를 확인하세요.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "중구청 소식지 · 2026년 9월호 가을축제 안내",
+          "url": "https://junggu.newstool.co.kr/view.php?aid=18296&eid=9052"
+        }
+      ]
+    },
+    {
+      "id": "incheon-culturenight-2026",
+      "name": "인천 개항장 국가유산야행 · 야시장",
+      "region": "인천",
+      "district": "제물포구",
+      "kind": "축제 연계",
+      "location": "인천 개항장 문화지구",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-10-09",
+        "end": "2026-10-11",
+        "open": "18:00",
+        "close": "22:00"
+      },
+      "scheduleText": "10월 9일–11일 18:00–22:00",
+      "description": "개항장 야행의 야식·야시 프로그램에서 야시장과 플리마켓을 만날 수 있습니다.",
+      "tags": [
+        "개항장",
+        "플리마켓",
+        "국가유산"
+      ],
+      "admission": "행사 입장 무료 · 개별 구매 비용 별도",
+      "booking": "프로그램별 신청 여부는 주최 측 안내 확인",
+      "note": "표시 시간은 전체 야행 운영시간입니다. 개별 야시장 부스 시간은 다를 수 있습니다. 인천투어 최종 수정 2026-09-09.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "인천투어 · 2026 인천개항장 국가유산야행",
+          "url": "https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=APD21112609160427326"
+        },
+        {
+          "title": "인천 개항장 국가유산야행 공식 누리집",
+          "url": "https://www.culturenight.co.kr/"
+        }
+      ],
+      "mapQuery": "인천 개항장 문화지구"
+    },
+    {
+      "id": "sindang-2026",
+      "name": "신당오길 밤마실, 미식으로의 초대",
+      "region": "서울",
+      "district": "중구",
+      "kind": "야장",
+      "location": "신당오길 골목형상점가 · 퇴계로88길 일대",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-10-23",
+        "end": "2026-10-23",
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "scheduleText": "10월 23일 15:00–21:00",
+      "description": "먹거리 야장과 버스킹, 전시·체험이 함께 열리는 밤마실 행사입니다.",
+      "tags": [
+        "신당",
+        "먹거리",
+        "공연"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "일정은 변경될 수 있습니다. 방문 당일 공식 공지를 확인하세요.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "중구청 소식지 · 2026년 9월호 가을축제 안내",
+          "url": "https://junggu.newstool.co.kr/view.php?aid=18296&eid=9052"
+        }
+      ]
+    },
+    {
+      "id": "gwanghui-2026",
+      "name": "광희동 중앙아시아거리 미식축제",
+      "region": "서울",
+      "district": "중구",
+      "kind": "야장",
+      "location": "광희동 중앙아시아거리 · 을지로42길·44길",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-10-24",
+        "end": "2026-10-24",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "scheduleText": "10월 24일 10:00–20:00",
+      "description": "중앙아시아 음식과 K푸드 야장, 쿠킹클래스·공연을 함께 선보입니다.",
+      "tags": [
+        "동대문",
+        "중앙아시아",
+        "먹거리"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "낮에 시작해 저녁까지 이어지는 미식·야장 행사입니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "중구청 소식지 · 2026년 9월호 가을축제 안내",
+          "url": "https://junggu.newstool.co.kr/view.php?aid=18296&eid=9052"
+        }
+      ]
+    },
+    {
+      "id": "suwon-bulchwi-2026",
+      "name": "수원남문시장 · 왕의 야시장 불취무귀",
+      "region": "경기",
+      "district": "수원시",
+      "kind": "야시장",
+      "location": "팔달문 고객지원센터 광장·지동교 일원",
+      "schedule": {
+        "mode": "dates",
+        "start": "2026-09-05",
+        "end": "2026-09-19",
+        "dates": [
+          "2026-09-05",
+          "2026-09-19"
+        ],
+        "open": null,
+        "close": null
+      },
+      "scheduleText": "9월 5일·19일 · 상세 운영시간 미확인",
+      "description": "수원남문시장 먹거리와 플리마켓, 공연이 함께하는 야시장입니다.",
+      "tags": [
+        "수원",
+        "남문시장",
+        "지동교"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "두 날짜에만 개최된 기록입니다. 9월 5일~19일 연속 운영이 아니며, 경기도청 자료에 상세 시작·종료 시간은 없습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "경기도청 뉴스레터 · 2026년 9월 1일",
+          "url": "https://www.gg.go.kr/myggd_hot/user/myggdHotDetail.do?seqId=NL00000149"
+        }
+      ],
+      "mapQuery": "수원 지동교"
+    },
+    {
+      "id": "kintex-2026",
+      "name": "킨텍스 야시장 · 킨밤 지새우고",
+      "region": "경기",
+      "district": "고양시",
+      "kind": "야시장",
+      "location": "킨텍스 제2전시장",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-09-04",
+        "end": "2026-09-05",
+        "open": null,
+        "close": null
+      },
+      "scheduleText": "9월 4일·5일 · 전체 운영시간 미확인",
+      "description": "푸드트럭·플리마켓과 공연을 곁들인 킨텍스 야시장입니다.",
+      "tags": [
+        "일산",
+        "킨텍스",
+        "푸드트럭"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "공식 뉴스레터의 18시는 공연 시작 시간입니다. 야시장 전체 개장 시간으로 사용하지 않았습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "경기도청 뉴스레터 · 2026년 9월 1일",
+          "url": "https://www.gg.go.kr/myggd_hot/user/myggdHotDetail.do?seqId=NL00000149"
+        }
+      ],
+      "mapQuery": "킨텍스 제2전시장"
+    },
+    {
+      "id": "baeknyeon-2026",
+      "name": "백년나이트 · 메기의 귀환",
+      "region": "서울",
+      "district": "강북구",
+      "kind": "야시장",
+      "location": "백년시장 일대",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-08-07",
+        "end": "2026-08-08",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "scheduleText": "8월 7일·8일 16:00–21:00",
+      "description": "먹거리·플리마켓에 DJ 공연과 체험을 더한 전통시장 야시장입니다.",
+      "tags": [
+        "백년시장",
+        "수유",
+        "레트로"
+      ],
+      "admission": "입장 무료 · 먹거리·판매 품목 별도",
+      "booking": "누구나 자유 참여",
+      "note": "2026년 8월 행사 종료 기록입니다. 다음 회차를 뜻하지 않습니다. 기상특보 시 변경 가능 안내가 있습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "서울문화포털 · 2026 백년나이트",
+          "url": "https://culture.seoul.go.kr/night/sub/program/view.do?pageIndex=4&pgmId=6789"
+        }
+      ],
+      "mapQuery": "서울 강북구 한천로144길 16"
+    },
+    {
+      "id": "shinyoung-2026",
+      "name": "신영시장 20주년 · 해피버스데이 야시장",
+      "region": "서울",
+      "district": "양천구",
+      "kind": "야시장",
+      "location": "신영시장 중앙통로",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-06-07",
+        "end": "2026-06-07",
+        "open": "17:00",
+        "close": "21:00"
+      },
+      "scheduleText": "6월 7일 야시장 17:00–21:00",
+      "description": "신영시장 창립 기념행사 안에서 열린 저녁 야시장입니다.",
+      "tags": [
+        "신영시장",
+        "전통시장"
+      ],
+      "admission": "행사 무료 · 상품·먹거리 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "전체 축제는 6월 5~7일이지만, 야시장으로 명시된 6월 7일 17~21시만 반영했습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "서울문화포털 · 신영시장 6.7 해피버스데이",
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157984&menuNo=200010"
+        }
+      ],
+      "mapQuery": "서울 신영시장"
+    },
+    {
+      "id": "yaksu-2026",
+      "name": "약수시장 · 약수 락(樂) 디너쇼",
+      "region": "서울",
+      "district": "중구",
+      "kind": "야장",
+      "location": "약수시장 골목형상점가 · 다산로10길 일대",
+      "schedule": {
+        "mode": "daily",
+        "start": "2026-09-19",
+        "end": "2026-09-19",
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "scheduleText": "9월 19일 14:00–21:00",
+      "description": "먹거리 야장과 문화공연, 시장 퀴즈가 함께한 행사입니다.",
+      "tags": [
+        "약수시장",
+        "먹거리"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "9월 19일 종료 기록입니다. 정기 운영 일정은 확인되지 않았습니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "중구청 소식지 · 2026년 9월호 가을축제 안내",
+          "url": "https://junggu.newstool.co.kr/view.php?aid=18296&eid=9052"
+        }
+      ]
+    },
+    {
+      "id": "rooftop-2026",
+      "name": "달빛 루프탑 나이트 마켓",
+      "region": "서울",
+      "district": "영등포구",
+      "kind": "야시장",
+      "location": "여의도유람선터미널 4층",
+      "schedule": {
+        "mode": "unknown"
+      },
+      "scheduleText": "환대주간 연계 안내 · 개별 개최일·시간 미확인",
+      "description": "서울환대주간 보도자료에 소개된 K-POP·전통문화 체험 연계 나이트 마켓입니다.",
+      "tags": [
+        "여의도",
+        "한강",
+        "루프탑"
+      ],
+      "admission": "요금·참가 대상 상세 확인 필요",
+      "booking": "예약 필요 여부 미확인",
+      "note": "전체 환대주간(9월 19일~10월 11일)을 야시장 운영기간으로 간주하지 않았습니다. 외국인 대상 프로그램 안내이므로 참가 자격도 확인해야 합니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "서울시 보도자료 · 2026 서울환대주간",
+          "url": "https://global.seoul.go.kr/hmpg/sinf/snew/pres/bordContDetail.do?bbs_no=10&pst_no=5B901CF8EDD401BEE063C0A8A022F114"
+        }
+      ],
+      "mapQuery": "여의도유람선터미널"
+    },
+    {
+      "id": "mangwon-2026-watch",
+      "name": "망원시장 가을 야시장 · 공지 확인 중",
+      "region": "서울",
+      "district": "마포구",
+      "kind": "야시장",
+      "location": "망원시장",
+      "schedule": {
+        "mode": "unknown"
+      },
+      "scheduleText": "10월 준비 보도 · 세부 개최일·시간 미확인",
+      "description": "마포구 가을 행사 보도에서 발견한 후속 확인 대상입니다.",
+      "tags": [
+        "망원",
+        "마포"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "언론의 준비 소식만 확인했습니다. 확정 일정이나 현재 운영 안내가 아니며, 공식 공지 확인 전입니다.",
+      "verification": "secondary",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "데일리안 · 마포구 야시장 행사 보도 (2026.09.03)",
+          "url": "https://www.dailian.co.kr/news/view/1685979"
+        }
+      ]
+    },
+    {
+      "id": "haengju-2026-watch",
+      "name": "행주가 예술이야 · 야시 프로그램",
+      "region": "경기",
+      "district": "고양시",
+      "kind": "축제 연계",
+      "location": "행주산성 주변 상권",
+      "schedule": {
+        "mode": "unknown"
+      },
+      "scheduleText": "2026 사업 선정 확인 · 야시 세부 운영일 미확인",
+      "description": "고양시가 소개한 국가유산 야행의 주변 상권 연계 프로그램입니다.",
+      "tags": [
+        "행주산성",
+        "고양"
+      ],
+      "admission": "요금 정보 미확인 · 먹거리·구매 비용 별도 확인",
+      "booking": "예약 필요 여부 미확인",
+      "note": "사업 선정 발표는 행사 개장 공지가 아닙니다. 야시장 부스 유무와 구체 운영일을 확인하기 전까지 방문 일정에서 제외합니다.",
+      "verification": "official",
+      "checkedAt": "2026-09-21",
+      "sources": [
+        {
+          "title": "고양시 · 2026 행주가 예술이야 공모 선정 안내",
+          "url": "https://www.goyang.go.kr/news/user/bbs/BD_selectBbs.do?q_bbsCode=1090&q_bbscttSn=20250917171302034&q_clCode=-1&q_estnColumn1=All"
+        }
+      ],
+      "mapQuery": "행주산성"
+    }
+  ]
+}
